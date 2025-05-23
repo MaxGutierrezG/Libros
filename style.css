@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: solid black 1px;
+    position: relative;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 17%;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+#titulo img{
+    width: 50px;
+    height: 50px;
+}
+
+#botones-Header{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    height: 50px;
+    align-self: center;
+    position: absolute;
+    top: 40%;
+    right: 50px;
+}
+
+#sesion{
+    background-color: darkblue;
+    color: white;
+    width: 130px;
+    height: 25px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#sesion:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+#registro{
+    background-color: lightblue;
+    width: 70px;
+    height: 25px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+#registro:hover{
+    color: lightblue;
+    background-color: white;
+
+}
+
+#opciones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.opcion{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(33, 192, 245);
+}
+
+nav button{
+    background-color: rgb(33, 192, 245);
+    border: none;
+    width: 100px;
+    font-size: 20px;
+}
+
+nav button:hover{
+    background-color: white;
+    color:rgb(33, 192, 245);
+}
+
+#clase-Libro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#libros-Display{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+article img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+article h3{
+    position: absolute;
+    bottom: 100px;
+}
+
+article h4{
+    position: absolute;
+    bottom: 70px;
+}
+
+article button{
+    position: absolute;
+    bottom: 20px;
+    background-color: lightblue;
+    width: 70px;
+    height: 25px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+article button:hover{
+    background-color: white;
+    color: lightblue;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
